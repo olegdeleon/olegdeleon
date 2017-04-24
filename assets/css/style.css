@@ -27,11 +27,26 @@ p {
 
 .container {
   margin-left: 60px;
-  margin-top: 30%;
-  transform: translateY(-50%);
+  margin-top: 20%;
+  transform: translateY(-40%);
   width: 600px;
 }
 
 .social {
-  float: right;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    margin: 0 auto;
+    transform: none;
+    width: 300px;
+  }
 }
